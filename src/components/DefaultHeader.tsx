@@ -6,11 +6,10 @@ import DarkModeToggle from "./DarkModeToggle"
 export default function DefaultHeader() {
 
     return (
-        <>
-            <header className="w-full bg-lightBg dark:bg-darkBg">
+            <div className="w-full bg-lightBg dark:bg-darkBg">
                 <div className="w-full py-6 px-16 space-x-4 bg-white text-primaryGray dark:text-darkText font-medium flex">
                     <div className="w-[80%]">
-                        <span className="mr-6 text-lg">Cauê Maldonado</span>
+                        <span className="mr-6 text-lg font-bold">Cauê Maldonado</span>
                         <Link href={`#`}
                             className="hover:text-primaryPurple dark:hover:text-secondaryPurple hover:font-semibold px-2"
                             >About me</Link>
@@ -28,7 +27,6 @@ export default function DefaultHeader() {
                         <DarkModeToggle/>
                     </div>
                 </div>
-            </header>
-        </>    
+            </div>  
     )
 }

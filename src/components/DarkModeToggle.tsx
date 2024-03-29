@@ -4,7 +4,7 @@ import { moonIcon, sunIcon } from "./icons"
 
 
 export default function DarkModeToggle() {
-    const [darkMode, setDarkMode] = useState(true)
+    const [darkMode, setDarkMode] = useState(false)
 
     useEffect(() => {
         const theme = localStorage.getItem("theme");
