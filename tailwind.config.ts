@@ -17,7 +17,12 @@ const config: Config = {
     },
     colors: {
       'primaryPurple': '#8E44ED',
+      'secondaryPurple': '#A681ED',
       'primaryGray': '#505077',
+      'lightText': '#505077',
+      'darkText': '#FFFFFF',
+      'lightBg': '#FFFFFF',
+      'darkBg': '#27273B',
     }
   },
   plugins: [],
