@@ -7,9 +7,9 @@ export default function DefaultHeader() {
 
     return (
             <div className="w-full bg-lightBg dark:bg-darkBg">
-                <div className="w-full py-6 px-16 space-x-4 bg-white text-primaryGray dark:text-darkText font-medium flex">
+                <div className="w-full py-6 px-16 space-x-4 bg-white text-lightText dark:text-darkText font-medium flex">
                     <div className="w-[80%]">
-                        <span className="mr-6 text-lg font-bold">Cauê Maldonado</span>
+                        <span className="mr-6 text-lg font-bold text-lightText dark:text-darkText">Cauê Maldonado</span>
                         <Link href={`#`}
                             className="hover:text-primaryPurple dark:hover:text-secondaryPurple hover:font-semibold px-2"
                             >About me</Link>

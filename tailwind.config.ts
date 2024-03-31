@@ -17,9 +17,9 @@ const config: Config = {
     },
     colors: {
       'primaryPurple': '#8E44ED',
-      'secondaryPurple': '#A681ED',
+      'secondaryPurple': '#B38BFF',
       'primaryGray': '#505077',
-      'lightText': '#505077',
+      'lightText': '#32324A',
       'darkText': '#FFFFFF',
       'lightBg': '#FFFFFF',
       'darkBg': '#27273B',
