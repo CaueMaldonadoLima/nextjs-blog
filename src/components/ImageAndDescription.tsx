@@ -16,7 +16,7 @@ export default function ImageAndDescription({
 
     return (
         <div className={`w-full flex space-x-4 border-t ${index == 0 && 'border-b'} border-primaryPurple dark:border-lightText border-opacity-30 py-8`}>
-            <Link href={`#`} className='w-full rounded-lg items-center justify-center flex px-1 py-3 border-2 border-lightBg dark:border-darkBg hover:border-primaryPurple dark:hover:border-secondaryPurple cursor-pointer'>
+            <Link href={`posts/post-${index+1}`} className='w-full rounded-lg items-center justify-center flex px-1 py-3 border-2 border-lightBg dark:border-darkBg hover:border-primaryPurple dark:hover:border-secondaryPurple cursor-pointer'>
                 <Image 
                     className='rounded-lg shadow-lg'
                     src={imageSource} 
