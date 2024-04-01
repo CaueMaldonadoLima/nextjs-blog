@@ -6,7 +6,7 @@ import DarkModeToggle from "./DarkModeToggle"
 export default function DefaultHeader() {
 
     return (
-            <div className="w-full bg-lightBg dark:bg-darkBg">
+            <div className="w-full bg-lightBg dark:bg-darkBg shadow-lg">
                 <div className="w-full py-6 px-16 space-x-4 bg-white text-lightText dark:text-darkText font-medium flex">
                     <div className="w-[80%]">
                         <span className="mr-6 text-lg font-bold text-lightText dark:text-darkText">Cauê Maldonado</span>
