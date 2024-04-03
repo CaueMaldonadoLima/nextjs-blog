@@ -23,6 +23,8 @@ const config: Config = {
       'darkText': '#FFFFFF',
       'lightBg': '#FFFFFF',
       'darkBg': '#27273B',
+      'shadowDarkBg': '#202030',
+      'shadowLightBg': '#F5F5F5',
     }
   },
   plugins: [],
