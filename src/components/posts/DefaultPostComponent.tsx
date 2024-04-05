@@ -8,10 +8,12 @@ interface Props {
     recommendedPost1: {
 		postImage: string;
 		postName: string;
+		index: number;
 	};
     recommendedPost2: {
 		postImage: string;
 		postName: string;
+		index: number;
 	};
 }
 
@@ -74,12 +76,12 @@ export default function DefaultPostComponent({
 			<div className='w-full flex items-center justify-center'>
 				<div className="py-6 flex-col w-[625px]">
 					<ImageAndDescription 
-						index={1}
+						index={recommendedPost1.index}
 						title={recommendedPost1.postName}
 						date="15/01/2024"
 						imageSource={recommendedPost1.postImage}/>
 					<ImageAndDescription 
-						index={0}
+						index={recommendedPost2.index}
 						title={recommendedPost2.postName}
 						date="21/11/2023"
 						imageSource={recommendedPost2.postImage}/>
