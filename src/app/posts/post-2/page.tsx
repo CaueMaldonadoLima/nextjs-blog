@@ -1,12 +1,12 @@
 import DefaultPostComponent from "@/components/posts/DefaultPostComponent";
 
-export default function Post03() {
+export default function Post02() {
 	return (
 		<DefaultPostComponent 
-			mainTitle={"Post 3"}
-			mainImage={"/astronautImage.png"} recommendedPost1={{
-				postImage: "/keyboardImage.png",
-				postName: "Post 2"
+			mainTitle={"Post 2"}
+			mainImage={"/keyboardImage.png"} recommendedPost1={{
+				postImage: "/astronautImage.png",
+				postName: "Post 3"
 			}} recommendedPost2={{
 				postImage: "/vrManImage.png",
 				postName: "Post 1"

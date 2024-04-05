@@ -12,14 +12,17 @@ export default function Home() {
 				<div className="py-6 flex-col">
 					<ImageAndDescription 
 						index={2}
+						title="Post 3"
 						date="02/03/2024"
 						imageSource={"/astronautImage.png"}/>
 					<ImageAndDescription 
 					  	index={1}
+						title="Post 2"
 						date="15/01/2024"
 						imageSource={"/keyboardImage.png"}/>
 					<ImageAndDescription 
 						index={0}
+						title="Post 1"
 						date="21/11/2023"
 						imageSource={"/vrManImage.png"}/>
 				</div>
