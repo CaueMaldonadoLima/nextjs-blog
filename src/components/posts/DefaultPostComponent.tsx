@@ -66,7 +66,7 @@ export default function DefaultPostComponent({
 				</div>	
 			</div>
 			<div className='w-full items-center justify-center flex text-primaryPurple dark:text-secondaryPurple bg-opacity-30'>
-				<hr className='w-[625px] mt-4 mb-16'></hr>
+				<hr className='w-[625px] mt-8 mb-16'></hr>
 			</div>
 			<div className='w-full items-center justify-center flex'>
 				<div className='w-[625px]'>
