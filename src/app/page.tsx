@@ -3,7 +3,7 @@ import ImageAndDescription from "@/components/ImageAndDescription";
 export default function Home() {
   return (
 		<>
-			<div className="flex-col w-full h-auto justify-center px-56 py-8 text-lightText dark:text-darkText">
+			<div className="flex-col w-full h-auto justify-center px-32 lg:px-56 py-8 text-lightText dark:text-darkText">
 				<span className="w-full justify-center flex font-semibold text-lg text-lightText dark:text-darkText mb-4">Home</span>
 				<div className="py-6">
 					<h1 className="w-full mb-2 flex text-primaryPurple dark:text-secondaryPurple text-2xl font-bold text-start">Welcome to my blog!</h1>
