@@ -26,7 +26,7 @@ export default function DefaultPostComponent({
 
 	
 	return (
-		<div className="flex-col w-full h-auto justify-center items-center px-56 py-8 text-lightText dark:text-darkText">
+		<div className="flex-col w-full h-auto justify-center items-center px-32 lg:px-56 py-8 text-lightText dark:text-darkText">
 			<span className='w-full justify-center items-center flex mb-4'>02/03/2024</span>
 			<span className="w-full justify-center flex font-semibold text-2xl text-primaryPurple dark:text-secondaryPurple mb-8">{mainTitle}</span>
 			<div className='w-full items-center justify-center flex'>
@@ -66,7 +66,7 @@ export default function DefaultPostComponent({
 				</div>	
 			</div>
 			<div className='w-full items-center justify-center flex text-primaryPurple dark:text-secondaryPurple bg-opacity-30'>
-				<hr className='w-[625px] mt-4 mb-16'></hr>
+				<hr className='w-[625px] mt-8 mb-16'></hr>
 			</div>
 			<div className='w-full items-center justify-center flex'>
 				<div className='w-[625px]'>
