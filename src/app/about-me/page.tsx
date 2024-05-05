@@ -24,7 +24,7 @@ export default function page() {
 					<p className='mb-8'>I entered UFMS (Fedaral University of Mato Grosso do Sul) in 2021, so due to the COVID-19 pandemic, I didn't have face-to-face classes in my first year, and only in my second year did I start having in-person classes.</p>
                     <p className='mb-8'>However, college wasn't my first encounter with programming. When I was in my first year of high school in 2018, I had extracurricular classes where one of the options was programming. This was very important in deciding which course I would choose. In those classes, I had my first contact with Python and algorithms, but since it was only for a few hours a day, I couldn't delve deeply into the content.</p>
                     <p className='mb-8'>In college, various career options were presented: back-end programming, front-end, data analyst, UX/UI designer, requirements analyst, PO, PM, Scrum master, among many others. However, programming always interested me the most; I enjoyed getting my hands dirty. The topics that interest me range from web/mobile programming to AI, machine learning, and computer vision.</p>
-                    <p>I'm in the final stretch of my graduation; soon I'll be a graduated Software Engineer, ready to achieve my goals.</p>
+                    <p>I'm in the final stretch of my graduation; soon I'll be a graduated Software Engineer and ready to achieve my goals.</p>
 				</div>
                 <div className="py-6 mt-8 border-t border-primaryPurple dark:border-lightText border-opacity-30">
                     <span className="w-full justify-center flex font-semibold text-2xl text-primaryPurple dark:text-secondaryPurple mb-8">Experience</span>
