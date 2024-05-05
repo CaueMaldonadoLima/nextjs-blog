@@ -1,15 +1,11 @@
 'use client'
 
-import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import DarkModeToggle from "./DarkModeToggle"
 import Link from "next/link";
 
 export default function DefaultHeader() {
-    const router = useRouter();
-
-    const handleClick = (link: string) => {
-        router.push(link)
-    };
+    const path = usePathname()
 
     return (
             <div className="w-full bg-lightBg dark:bg-darkBg shadow-lg">
@@ -17,16 +13,16 @@ export default function DefaultHeader() {
                     <div className="w-[80%] flex items-center">
                         <span className="mr-6 text-lg font-bold text-lightText dark:text-darkText">Cauê Maldonado</span>
                         <Link href={'/'} 
-                            className="cursor-pointer hover:text-primaryPurple dark:hover:text-secondaryPurple hover:font-semibold px-2"
+                            className={`cursor-pointer hover:text-primaryPurple dark:hover:text-secondaryPurple hover:font-semibold px-2 ${path == '/' || path.includes('/posts')?'text-primaryPurple dark:text-secondaryPurple font-semibold' : ''}`}
                             >Home</Link>
                         <Link href={'/about-me'} 
-                            className="cursor-pointer hover:text-primaryPurple dark:hover:text-secondaryPurple hover:font-semibold px-2"
+                            className={`cursor-pointer hover:text-primaryPurple dark:hover:text-secondaryPurple hover:font-semibold px-2 ${path.includes('/about-me')?'text-primaryPurple dark:text-secondaryPurple font-semibold' : ''}`}
                             >About me</Link>
                         <Link href={''} 
-                            className="cursor-pointer hover:text-primaryPurple dark:hover:text-secondaryPurple hover:font-semibold px-2"
+                            className={`cursor-pointer hover:text-primaryPurple dark:hover:text-secondaryPurple hover:font-semibold px-2 ${path.includes('/projects')?'text-primaryPurple dark:text-secondaryPurple font-semibold' : ''}`}
                             >My Projects</Link>
-                        <Link href={''} 
-                            className="cursor-pointer hover:text-primaryPurple dark:hover:text-secondaryPurple hover:font-semibold px-2"
+                        <Link href={'/socials'} 
+                            className={`cursor-pointer hover:text-primaryPurple dark:hover:text-secondaryPurple hover:font-semibold px-2 ${path.includes('/socials')?'text-primaryPurple dark:text-secondaryPurple font-semibold' : ''}`}
                             >Socials</Link>    
                     </div>
                     <div className="w-[20%] justify-end flex hover:text-primaryPurple ">
