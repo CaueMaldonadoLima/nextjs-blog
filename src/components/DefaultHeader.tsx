@@ -18,9 +18,9 @@ export default function DefaultHeader() {
                         <Link href={'/about-me'} 
                             className={`cursor-pointer hover:text-primaryPurple dark:hover:text-secondaryPurple hover:font-semibold px-2 ${path.includes('/about-me')?'text-primaryPurple dark:text-secondaryPurple font-semibold' : ''}`}
                             >About me</Link>
-                        <Link href={''} 
+                        <Link href={'/projects'} 
                             className={`cursor-pointer hover:text-primaryPurple dark:hover:text-secondaryPurple hover:font-semibold px-2 ${path.includes('/projects')?'text-primaryPurple dark:text-secondaryPurple font-semibold' : ''}`}
-                            >My Projects</Link>
+                            >Projects</Link>
                         <Link href={'/socials'} 
                             className={`cursor-pointer hover:text-primaryPurple dark:hover:text-secondaryPurple hover:font-semibold px-2 ${path.includes('/socials')?'text-primaryPurple dark:text-secondaryPurple font-semibold' : ''}`}
                             >Socials</Link>    
