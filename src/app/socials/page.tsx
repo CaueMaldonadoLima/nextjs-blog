@@ -11,7 +11,7 @@ export default function page() {
                 <div className="py-6">
                     <IconAndTitle imageSrc={'/linkedInIcon.png'} imageAlt={'linkedIn'} link={'https://www.linkedin.com/in/cauemaldonado1/'} title={'LinkedIn'} description={'Click here checkout my profile on LinkedIn, where I post content about my academic and professional career.    '}/>
                     <IconAndTitle imageSrc={'/gitHubIcon.png'} imageAlt={'gitHub'} link={'https://github.com/CaueMaldonadoLima'} title={'GitHub'} description={'Click here checkout my profile on GitHub, where you can see all my projects.    '}/>
-                    <IconAndTitle imageSrc={'/youtubeIcon.png'} imageAlt={'youtube'} link={'#'} title={'YouTube'} description={'Click here checkout my profile on YouTube, where I post content about problem solving and other programming related themes. '}/>
+                    <IconAndTitle imageSrc={'/youtubeIcon.png'} imageAlt={'youtube'} link={'https://www.youtube.com/channel/UCWCupq87rkjdN2qtQUAohJQ'} title={'YouTube'} description={'Click here checkout my profile on YouTube, where I post content about problem solving and other programming related themes. '}/>
                     <IconAndTitle imageSrc={'/leetCodeIcon.png'} imageAlt={'leetCode'} link={'https://leetcode.com/u/CaueMaldonadoLima/'} title={'LeetCode'} description={'Click here checkout my profile on leetCode, a platform where I solve programming problems.   '}/>
                     <IconAndTitle imageSrc={'/beecrowdIcon.png'} imageAlt={'beecrowd'} link={'https://judge.beecrowd.com/en/profile/920394'} title={'Beecrowd'} description={'Click here checkout my profile on beecrowd, a platform where I solve programming problems.    '}/>
 				</div>
