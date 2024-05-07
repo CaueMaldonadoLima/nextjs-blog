@@ -7,7 +7,9 @@ export default function page() {
             <div className="flex-col w-full h-auto justify-center px-32 lg:px-56 py-8 text-lightText dark:text-darkText">
                 <span className="w-full justify-center flex font-semibold text-lg text-lightText dark:text-darkText mb-4">Socials</span>
                 <h1 className="w-full mb-2 flex text-primaryPurple dark:text-secondaryPurple text-2xl font-bold text-start">My Socials</h1>
-                <span>Here's where you can find some more info about me.</span>
+                <span>
+                    {"Here's where you can find some more info about me."}
+                </span>
                 <div className="py-6">
                     <IconAndTitle imageSrc={'/linkedInIcon.png'} imageAlt={'linkedIn'} link={'https://www.linkedin.com/in/cauemaldonado1/'} title={'LinkedIn'} description={'Click here checkout my profile on LinkedIn, where I post content about my academic and professional career.    '}/>
                     <IconAndTitle imageSrc={'/gitHubIcon.png'} imageAlt={'gitHub'} link={'https://github.com/CaueMaldonadoLima'} title={'GitHub'} description={'Click here checkout my profile on GitHub, where you can see all my projects.    '}/>
