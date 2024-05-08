@@ -1,30 +1,15 @@
+import ImageAndTitle from '@/components/aboutMe/ImageAndTitle'
 import Image from 'next/image'
 import React from 'react'
 
 export default function page() {
     return (
         <>
-			<div className="flex-col w-full h-auto justify-center px-32 lg:px-56 py-8 text-lightText dark:text-darkText">
+			<div className="flex-col w-full h-auto justify-center px-4 sm:px-32 lg:px-56 py-8 text-lightText dark:text-darkText">
                 <span className="w-full justify-center flex font-semibold text-lg text-lightText dark:text-darkText mb-4">
                     {"About me"}
                 </span>
-                <div className='py-6 flex items-center space-x-14'>
-                    <Image 
-                        src={'/profilePicture.jpg'} 
-                        alt={''} 
-                        width={150} 
-                        height={150} 
-                        className='rounded-full shadow-lg shadow-primaryPurple dark:shadow-secondaryPurple '
-                    />
-                    <div>
-                        <h1 className="w-full mb-2 flex text-primaryPurple dark:text-secondaryPurple text-2xl font-bold text-start">
-                            {"Hi, I'm Cauê Maldonado"}
-                        </h1>
-                        <span>
-                            {"I'm a software engineer student, currently pursuing my B.E in Software Engineering at UFMS"}
-                        </span>
-                    </div>
-                </div>
+                <ImageAndTitle/>
                 <div className="py-6 mt-8 border-t border-primaryPurple dark:border-lightText border-opacity-30">
                     <span className="w-full justify-center flex font-semibold text-2xl text-primaryPurple dark:text-secondaryPurple mb-8">
                         {"Education"}
