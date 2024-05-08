@@ -6,7 +6,7 @@ import React from 'react'
 export default function page() {
     return (
         <>
-			<div className="flex-col w-full h-auto justify-center px-32 lg:px-56 py-8 text-lightText dark:text-darkText">
+			<div className="flex-col w-full h-auto justify-center px-4 sm:px-32 lg:px-56 py-8 text-lightText dark:text-darkText">
                 <span className="w-full justify-center flex font-semibold text-lg text-lightText dark:text-darkText mb-4">Projects</span>
                     <h1 className="w-full mb-2 flex text-primaryPurple dark:text-secondaryPurple text-2xl font-bold text-start">My projects</h1>
                     <span>
