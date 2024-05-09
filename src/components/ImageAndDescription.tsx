@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image'
+import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import React from 'react'
 
@@ -36,7 +37,7 @@ export default function ImageAndDescription({
                     />
                 </button>
             </div>
-            <div className='w-full flex-col space-y-1'>
+            <div onClick={onHandleClick} className='w-full flex-col space-y-1'>
                 <span className='w-full font-light text-lightText dark:text-darkText'>{date}</span>
                 <p className='w-full text-lg font-semibold text-primaryPurple dark:text-secondaryPurple'>{title}</p>
                 <p className={`w-full pr-2 sm:pr-0 font-medium text-lightText dark:text-darkText break-words`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id diam maecenas ultricies mi eget mauris pharetra.s</p>
