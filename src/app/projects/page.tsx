@@ -14,7 +14,7 @@ export default function page() {
                     </span>
                 <div className='w-full border-t border-primaryPurple dark:border-lightText border-opacity-30 py-6 mt-8'>
                     <div className='p-4 rounded-md shadow-lg shadow-black my-2 bg-darkBg bg-opacity-[0.025] dark:bg-lightBg dark:bg-opacity-[0.025]'>
-                        <h2 className='w-full mb-2 flex text-primaryPurple dark:text-secondaryPurple text-2xl font-bold text-start'>Blog App<span className='text-sm text-lightText dark:text-darkText  dark:text-opacity-50 text-opacity-50 pl-2 pt-2'>
+                        <h2 className='w-full mb-2 sm:flex text-primaryPurple dark:text-secondaryPurple text-2xl font-bold text-start'>Blog App<span className='text-xs sm:text-sm text-lightText dark:text-darkText  dark:text-opacity-50 text-opacity-50 pl-2 pt-2'>
                             {"(This is the project you're currently viewing.)"}
                         </span></h2>
                         <p>
@@ -27,7 +27,7 @@ export default function page() {
                                     <li className='pl-4'><span className='text-primaryPurple dark:text-secondaryPurple pr-2'>•</span>Next.js 14</li>
                                     <li className='pl-4'><span className='text-primaryPurple dark:text-secondaryPurple pr-2'>•</span>Tailwind CSS</li>
                                     <li className='pl-4 pb-4'><span className='text-primaryPurple dark:text-secondaryPurple pr-2'>•</span><Link href='https://github.com/CaueMaldonadoLima/nextjs-blog' className='underline decoration-[1.5px]'>Check out more information on my GitHub.</Link></li>
-                                    <span className='text-sm font-normal pl-4'>If you liked this project or it helped you in some way, consider leaving a star!</span>
+                                    <span className='text-sm font-normal sm:pl-4'>If you liked this project or it helped you in some way, consider leaving a star!</span>
                                 </ul>
                             </div>                       
                         </MoreInfoComponent>
