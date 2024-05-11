@@ -22,8 +22,8 @@ const config: Config = {
       'lightText': '#32324A',
       'darkText': '#FFFFFF',
       'lightBg': '#FFFFFF',
-      'darkBg': '#27273B',
-      'shadowDarkBg': '#202030',
+      'darkBg': '#181A1B',
+      'shadowDarkBg': '#1D2021',
       'shadowLightBg': '#F5F5F5',
     }
   },
