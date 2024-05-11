@@ -22,13 +22,11 @@ export default function DarkModeToggle() {
     }, [darkMode])
 
     return (
-        <div className='p-2 rounded-full items-center justify-center flex bg-shadowLightBg dark:bg-shadowDarkBg'>
-            <button 
-                className='rounded-full hover:text-primaryPurple dark:hover:text-secondaryPurple text-lightText dark:text-darkText' 
-                onClick={() => {setDarkMode(!darkMode)}}
-            >
-                {darkMode? moonIcon(): sunIcon()} 
-            </button>
-        </div>
+        <button 
+            className='pt-2 hover:text-primaryPurple dark:hover:text-secondaryPurple text-lightText dark:text-darkText' 
+            onClick={() => {setDarkMode(!darkMode)}}
+        >
+            {darkMode? moonIcon(): sunIcon()} 
+        </button>
     )
 }
